@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Promoção de Calças - R$35,00</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        /* Código CSS dentro do HTML para simplificação */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #009688;
+            padding: 20px;
+            text-align: center;
+            color: white;
+        }
+
+        header .logo h1 {
+            font-size: 36px;
+        }
+
+        .produto {
+            display: flex;
+            justify-content: center;
+            padding: 40px;
+            transition: transform 0.3s ease;
+        }
+
+        .produto:hover {
+            transform: scale(1.02); /* Efeito de zoom na seção de produto */
+        }
+
+        .imagem-produto img {
+            width: 300px;
+            height: auto;
+            transition: transform 0.3s ease;
+        }
+
+        .imagem-produto img:hover {
+            transform: scale(1.1); /* Efeito de zoom na imagem do produto */
+        }
+
+        .detalhes-produto {
+            max-width: 400px;
+            margin-left: 30px;
+        }
+
+        .detalhes-produto h2 {
+            font-size: 28px;
+            margin-bottom: 20px;
+        }
+
+        .descricao {
+            font-size: 18px;
+            margin-bottom: 20px;
+        }
+
+        .preco-antigo {
+            font-size: 20px;
+            color: #888;
+            text-decoration: line-through;
+        }
+
+        .preco-promocao {
+            font-size: 28px;
+            font-weight: bold;
+            color: #e53935;
+            margin-top: 10px;
+        }
+
+        .botao-compra {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #e53935;
+            color: white;
+            font-size: 18px;
+            text-decoration: none;
+            border-radius: 5px;
+            margin-top: 20px;
+            transition: background-color 0.3s ease;
+        }
+
+        .botao-compra:hover {
+            background-color: #d32f2f;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #009688;
+            color: white;
+            margin-top: 40px;
+        }
+
+        footer p {
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <div class="logo">
+            <h1>Loja Super Promoção</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#home">Início</a></li>
+                <li><a href="#produtos">Produtos</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="produto">
+        <div class="imagem-produto">
+            <img src="https://via.placeholder.com/300" alt="Calça Promoção">
+        </div>
+        <div class="detalhes-produto">
+            <h2>Calça Estilo Casual</h2>
+            <p class="descricao">Calça confortável e estilosa para o seu dia a dia. Ideal para várias ocasiões.</p>
+            <p class="preco-antigo"><strike>R$59,90</strike></p>
+            <p class="preco-promocao">R$35,00</p>
+            <a href="#compra" class="botao-compra">Comprar Agora</a>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Loja Super Promoção | Todos os direitos reservados</p>
+    </footer>
+
+</body>
+</html>
